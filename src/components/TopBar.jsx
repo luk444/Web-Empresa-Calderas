@@ -4,7 +4,7 @@ import { RiFacebookBoxFill, RiTwitterFill, RiWhatsappLine, RiInstagramLine, RiPh
 
 
 
-function TopBar() {
+function Topbar() {
   return (
     <div className="batin py-2">
       <div className="container mx-auto">
@@ -40,4 +40,4 @@ function TopBar() {
   );
 }
 
-export default TopBar;
+export default Topbar;

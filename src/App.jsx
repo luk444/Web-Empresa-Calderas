@@ -8,7 +8,7 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Servicios from "./components/Servicios";
 import { RiArrowUpLine } from "react-icons/ri";
-import TopBar from './components/Topbar';
+import Topbar from './components/TopBar';
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -35,12 +35,12 @@ function App() {
 
   return (
     <div>
-      <TopBar />
+      <Topbar />
       <Header />
       <Hero />
       <Clients />
       <Works />
-       <Servicios />
+      <Servicios />
       <Reviews />
       <Services />
       <Footer />
